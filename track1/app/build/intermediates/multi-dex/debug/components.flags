@@ -1,0 +1,88 @@
+-injars 'E:\improvisasi\iu\track1\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'E:\improvisasi\iu\track1\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\lacorp\AppData\Local\Android\Sdk\build-tools\24.0.0-preview\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration 'E:\improvisasi\iu\track1\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.bdg.telkom.track1.Begin {
+    <init>();
+}
+
+-keep class com.bdg.telkom.track1.MainActivity {
+    <init>();
+}
+
+-keep class com.bdg.telkom.track1.FormActivity {
+    <init>();
+}
+
+-keep class com.bdg.telkom.track1.tesAct {
+    <init>();
+}
+
+-keep class com.bdg.telkom.track1.GPSActivity {
+    <init>();
+}
+
+-keep class com.bdg.telkom.track1.Finish {
+    <init>();
+}
+
+-keep class com.bdg.telkom.track1.StartService {
+    <init>();
+}
+
+-keep class com.bdg.telkom.track1.TestNetworkManager {
+    <init>();
+}
+
+-keep class com.bdg.telkom.track1.BestTimeService {
+    <init>();
+}
+
+-keep class com.bdg.telkom.track1.BootReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

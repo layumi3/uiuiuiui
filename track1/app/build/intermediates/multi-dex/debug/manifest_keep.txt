@@ -1,0 +1,25 @@
+-keep class com.bdg.telkom.track1.Begin { <init>(); }
+-keep class com.bdg.telkom.track1.MainActivity { <init>(); }
+-keep class com.bdg.telkom.track1.FormActivity { <init>(); }
+-keep class com.bdg.telkom.track1.tesAct { <init>(); }
+-keep class com.bdg.telkom.track1.GPSActivity { <init>(); }
+-keep class com.bdg.telkom.track1.Finish { <init>(); }
+-keep class com.bdg.telkom.track1.StartService { <init>(); }
+-keep class com.bdg.telkom.track1.TestNetworkManager { <init>(); }
+-keep class com.bdg.telkom.track1.BestTimeService { <init>(); }
+-keep class com.bdg.telkom.track1.BootReceiver { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
+-keep class com.android.tools.fd.** {
+    *;
+}
+-dontnote com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
